@@ -99,4 +99,13 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    public void amanacer()
+    {
+        if (wall != null)
+        {
+            moon.makeInvisible();
+            sun.slowMoveVertical(-100);
+        }
+    }
 }
